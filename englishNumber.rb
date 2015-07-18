@@ -119,3 +119,7 @@ puts englishNumber( 32)
 puts englishNumber( 88)
 puts englishNumber( 99)
 puts englishNumber(100)
+
+puts 'please give me a number between 1 - 100'
+number = gets.to_i
+puts englishNumber(number)
